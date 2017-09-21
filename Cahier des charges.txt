@@ -1,0 +1,22 @@
+**	Projets SOS partenaires (possible ) **
+
+Fonctionnalités attendues : 
+
+-> Service de géolocalisation
+-> Service de chat intégrés pour les amis
+-> Service de recherche de sport
+-> Statistiques par régions des différens sport sous formes de graphiques
+-> Forum pour discuter des différents sports
+-> Services de match pour noter les scores en fonctions des différents sport avec classement
+-> Affichage d'une page actualité au niveau du sport avec des flux RSS ( via éuipes/bfm tv etc...).
+-> Un design propre et responsiv qui donnent envie
+-> pas de couleur trop flashie pour ne pas abimer les yeux
+-> Services de recherche d'utilisateur
+-> Service de cryptage et décryptage des mots de passe
+-> Service de prise en compte des page 404 et des acces denied.
+-> Services de traduction de page pour l'internationalisation du contenu proposant 3 langues différentes (Anglais/Francais/Espagnol)
+-> un slider sur la page d'accueil
+->une base de données de type mysql
+-> design aussi adapté pour mobile (jquery modile ou seven à voir)
+-> Services de recherche d'utilisateur avec possibilité d'ajouter en amis
+-> possibilité d'envoyer un mail (si la personne à autorisez au préalablement les contacts de mail)
