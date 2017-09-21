@@ -11,7 +11,7 @@ header{
     
 }
 
-header div{
+.header{
     
     background:         white;
     height:             100%;
@@ -22,7 +22,7 @@ header div{
     }
 
 
-.col-lg-12 div{
+.contenu{
     
     height:             200px;
     background:         white;
@@ -34,7 +34,7 @@ header div{
     
 }
 
-.contenu{
+.footer{
     
     height:             10%;
     min-height:         100px;

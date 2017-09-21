@@ -9,23 +9,23 @@
     </head> 
     <body class="container-fluid">
             <header>
-                <div class="col-lg-1">
+                <div class="col-lg-1 header">
                     img
                 </div>
-                <div class="col-lg-11">
+                <div class="col-lg-11 header">
                     nav
                 </div>
             </header> 
         <div class="row">
             <div class="col-lg-12">
-                <div class="col-lg-1 "></div>
-                <div class="col-lg-10 "></div>
-                <div class="col-lg-1 "></div>
+                <div class="col-lg-1 contenu"></div>
+                <div class="col-lg-10 contenu "></div>
+                <div class="col-lg-1 contenu"></div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12 ">
-                <div class="col-lg-12 contenu"></div>
+                <div class="col-lg-12 footer"></div>
             </div>
         </div>
         
