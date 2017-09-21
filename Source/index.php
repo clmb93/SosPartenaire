@@ -7,9 +7,27 @@
         
         
     </head> 
-    <body>
-        
-        <header></header>
+    <body class="container-fluid">
+            <header>
+                <div class="col-lg-1">
+                    img
+                </div>
+                <div class="col-lg-11">
+                    nav
+                </div>
+            </header> 
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-lg-1 "></div>
+                <div class="col-lg-10 "></div>
+                <div class="col-lg-1 "></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class="col-lg-12 contenu"></div>
+            </div>
+        </div>
         
     </body> 
     <footer>

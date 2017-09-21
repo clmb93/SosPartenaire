@@ -1,0 +1,47 @@
+body{
+    
+    margin:             0px;
+    padding:            0px;
+}
+
+header{
+    
+    height:         15%;
+    min-height:     100px;
+    
+}
+
+header div{
+    
+    background:         white;
+    height:             100%;
+    text-align:         center;
+    border:             1px solid black;
+    align-content:      center;
+    vertical-align:     middle;
+    }
+
+
+.col-lg-12 div{
+    
+    height:             200px;
+    background:         white;
+    text-align:         center;
+    height:             80%;
+    min-height:         500px;
+    border:             1px solid black;
+    vertical-align:     middle;
+    
+}
+
+.contenu{
+    
+    height:             10%;
+    min-height:         100px;
+    background:         white;
+    text-align:         center;
+    height:             80%;
+    min-height:         500px;
+    border:             1px solid black;  
+
+}
