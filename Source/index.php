@@ -18,9 +18,9 @@
             </header> 
         <div class="row">
             <div class="col-lg-12">
-                <div class="col-lg-1 contenu"></div>
-                <div class="col-lg-10 contenu "></div>
-                <div class="col-lg-1 contenu"></div>
+                <div class="col-lg-2 contenu"></div>
+                <div class="col-lg-8 contenu "></div>
+                <div class="col-lg-2 contenu"></div>
             </div>
         </div>
         <div class="row">
