@@ -2,6 +2,7 @@ body{
     
     margin:             0px;
     padding:            0px;
+    background:         #F1F1F1;
 }
 
 header{
@@ -25,7 +26,7 @@ header{
 .contenu{
     
     height:             200px;
-    background:         white;
+    background:         #F1F1F1;
     text-align:         center;
     height:             75%;
     min-height:         500px;
@@ -47,8 +48,25 @@ header{
 }
 
 
+
 #DivRss{
     
     padding:        10px;
     text-align:     justify;
+}
+
+#Actu_rss{
+    
+    width:              100%;
+    color:              white;
+    background:         #004678;
+    min-width:          auto;
+    text-align:         center;
+    padding-left:       10px;
+    font-size:          20px;
+    font-weight:        bolder;
+    height:             5%;
+    padding-top:        5px;
+    min-height:         30px;
+    border:             1px solid black;
 }

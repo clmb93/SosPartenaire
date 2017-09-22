@@ -21,7 +21,11 @@
             <div class="col-lg-12">
                 <div class="col-lg-2 contenu"></div>
                 <div class="col-lg-8 contenu "></div>
-                <div class="col-lg-2 contenu"  id="DivRss"></div>
+                <div class="col-lg-2 contenu flux_rss">
+                    <h3 id="Actu_rss">Actualité</h3>
+                    <div id="DivRss"></div>
+                    <a target="_blank" href="http://rmcsport.bfmtv.com/breves-et-depeches-sport">Afficher toutes les actualités</a>
+                </div>
             </div>
         </div>
         <div class="row">
