@@ -31,7 +31,7 @@ header{
     height:             75%;
     min-height:         500px;
     border:             1px solid black;
-    vertical-align:     middle;
+    border-width:       thin;
     
 }
 
@@ -39,7 +39,6 @@ header{
     
     height:             10%;
     min-height:         100px;
-    background:         white;
     text-align:         center;
     height:             10%;
     min-height:         100px;
@@ -68,5 +67,4 @@ header{
     height:             5%;
     padding-top:        5px;
     min-height:         30px;
-    border:             1px solid black;
 }
