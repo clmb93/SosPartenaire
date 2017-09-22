@@ -24,7 +24,7 @@
                 <div class="col-lg-2 contenu flux_rss">
                     <h3 id="Actu_rss">Actualités sportives</h3>
                     <div id="DivRss"></div>
-                    <a href="#" id="rss_title">Afficher plus</a>
+                    <a href="http://www.sports.fr/" id="rss_title">Afficher plus</a>
                 </div>
             </div>
         </div>
