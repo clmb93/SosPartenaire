@@ -45,3 +45,10 @@ header{
     border:             1px solid black;  
 
 }
+
+
+#DivRss{
+    
+    padding:        10px;
+    text-align:     justify;
+}
