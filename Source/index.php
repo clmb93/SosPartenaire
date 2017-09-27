@@ -13,7 +13,18 @@
             	<img src="public/img/logo/logo.png" alt="logo" class="bg-header">
             </div>
             <div class="col-lg-10 header">
-                    nav
+             	<nav class="barre_navigation">
+					<div class="container">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</nav>
             </div>
         </header> 
         <section class="row">

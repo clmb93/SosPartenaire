@@ -19,9 +19,25 @@ header{
     align-content:      center;
     vertical-align:     middle;
     padding:            0px;
-    border:             1px solid black;
+	border: 			1px solid black;
 
 }
+
+.barre_navigation{
+	
+	width: 					100%;
+	background-color: 		black;
+	height: 				50px;
+	min-height: 			50px;
+}
+
+.barre_navigation div ul{
+	
+	
+	list-style: 		none;
+}
+
+
 
 .bg-header{
     
