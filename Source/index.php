@@ -5,13 +5,14 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="lib/js/FeedEk/css/FeedEk.css">
         <link rel="stylesheet" href="public/css/index.css">
+        <link rel="icon" href="public/img/logo/logo-icon.png">
         
         
     </head> 
     <body class="container-fluid">
             <header>
                 <div class="col-lg-2 header">
-                   <img src="public/img/logo.png" alt="logo" class="bg-header">
+                   <img src="public/img/logo/logo.png" alt="logo" class="bg-header">
                 </div>
                 <div class="col-lg-10 header">
                     nav
