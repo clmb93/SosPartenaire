@@ -10,10 +10,10 @@
     </head> 
     <body class="container-fluid">
             <header>
-                <div class="col-lg-1 header">
-                    img
+                <div class="col-lg-2 header">
+                   <img src="public/img/logo.png" alt="logo" class="bg-header">
                 </div>
-                <div class="col-lg-11 header">
+                <div class="col-lg-10 header">
                     nav
                 </div>
             </header> 
