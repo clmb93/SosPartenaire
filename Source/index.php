@@ -17,7 +17,7 @@
                     nav
                 </div>
             </header> 
-        <div class="row">
+        <section class="row">
             <div class="col-lg-12">
                 <div class="col-lg-2 contenu"></div>
                 <div class="col-lg-8 contenu "></div>
@@ -27,7 +27,7 @@
                     <a href="http://www.sports.fr/" target='_blank' id="rss_title">Afficher plus</a>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="row">
             <div class="col-lg-12 ">
                 <div class="col-lg-12 footer"></div>
