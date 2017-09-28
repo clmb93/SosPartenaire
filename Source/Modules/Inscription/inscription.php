@@ -54,10 +54,10 @@
 						 <input type="password" class="form-control" name="log" id="log" placeholder="Entrez votre mot de passe">
 					  </div>
 					<a href="../../index.php" id="inscription">Retour</a><br><br>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-sm-6 ">
 						<input type="submit" class="btn btn-block btn_form" value="Inscription">
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 col-md-6 col-sm-6">
 						<input type="reset" class="btn btn-block btn_form" value="Annuler">
 					</div>
 				</form>
