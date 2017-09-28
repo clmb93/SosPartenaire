@@ -6,7 +6,7 @@ index.php,
 
 body{
 	
-	background: 		url('../img/intro/terrain_foort.jpg') no-repeat center;
+	background: 		url('../../../img/terrain_foot.jpg') no-repeat center;
 	background-size: 	cover;
 	overflow: 			hidden;
 }
@@ -25,6 +25,17 @@ body{
 .cache{
 	
 	margin-bottom: 	200%;
+}
+
+
+.inscription{
+	
+	position: 			fixed;
+	margin-top: 		25%;
+	margin-left: 		25%;
+	border: 			10px dashed darkgreen;
+	background: 		white;
+	padding: 			0px;
 }
 
 
