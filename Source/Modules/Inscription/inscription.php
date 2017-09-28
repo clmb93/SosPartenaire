@@ -10,7 +10,7 @@
 		<div class="col-lg-6 intro-content cache" id="intro-content">
 			<div class=" col-lg-12">
 				<h1 align="center">Inscription</h1><br><br>
-				<form id="monForm" method="post" action="php/class_inscrip.php">
+				<form  id="form_inscription" method="post" action="#">
 					 <div>
 						<label>Prénom</label>
 						<input type="text" class="form-control" id="prenom" placeholder="Entrez votre nom" name="prenom">
