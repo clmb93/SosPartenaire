@@ -1,0 +1,4 @@
+Idée à faire : 
+
+-> l'accueil de l'espace membre doit avoir un menu en forme de tuile dans le style de widows 8.
+
