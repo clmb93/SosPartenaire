@@ -10,7 +10,7 @@
 		<div class="col-lg-6 intro-content cache" id="intro-content">
 			<div class=" col-lg-12">
 				<h1 align="center">Connexion</h1><br><br>
-				<form id="monForm">
+				<form id="Form_connect" method="post" action="modules/accueil/php/test_co.php">
 					 <div>
 						<label for="formGroupExampleInput">Login</label>
 						<input type="text" class="form-control" id="log" placeholder="Login">
@@ -20,7 +20,7 @@
 						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
 					  </div>
 					<a href="modules/inscription/inscription.php" id="inscription">Pas de compte ? inscrivez-vous</a><br><br>
-					<button class="btn btn-block btn-success">Connexion</button>
+					<input type="submit" class="btn btn-block btn-success" value="Connexion">
 				</form>
 			</div>
 		</div>
