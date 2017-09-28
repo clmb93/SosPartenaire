@@ -8,6 +8,7 @@ body{
 	
 	background: 		url('../img/terrain.jpg') no-repeat center;
 	background-size: 	cover;
+	overflow: 			hidden;
 }
 
 .intro-content{

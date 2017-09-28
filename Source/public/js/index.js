@@ -1,7 +1,7 @@
- 
 $(document).ready(function(){
+	
 		   $('#intro-content').animate({
 			   		marginBottom : "25%"
 
-		   },2000); 
+		   },2000,'linear'); 
 });

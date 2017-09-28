@@ -13,13 +13,13 @@
 				<form class="form">
 					 <div>
 						<label for="formGroupExampleInput">Login</label>
-						<input type="text" class="form-control" id="log" placeholder="Example input">
+						<input type="text" class="form-control" id="log" placeholder="Login">
 					  </div><br>
 					  <div class="form-group">
 						<label for="formGroupExampleInput2">Mot de passe</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Another input">
+						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
 					  </div>
-					<a href="#">Pas de compte ? inscrivez vous</a><br><br>
+					<a href="#">Pas de compte ? inscrivez-vous</a><br><br>
 					<button class="btn btn-block btn-success">Connexion</button>
 				</form>
 			</div>
@@ -29,6 +29,7 @@
     </body> 
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="public/js/Jquery-easing.js"></script>
         <script src="public/js/index.js"></script>
     </footer>
 </html>
