@@ -13,31 +13,23 @@
 				<form id="monForm">
 					 <div>
 						<label>Prénom</label>
-						<input type="text" class="form-control" id="log" placeholder="Entrez votre nom">
+						<input type="text" class="form-control" id="prenom" placeholder="Entrez votre nom" name="prenom">
 					  </div><br>
 					  <div class="form-group">
 						<label>Nom</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Entrez votre prénom">
+						<input type="password" class="form-control" id="nom" name="nom" placeholder="Entrez votre prénom">
 					  </div>
 					 <div class="form-group">
 						<label>Adresse</label>
 						 <textarea class="form-control" name="adresse" id="adresse" placeholder="Entrez votre adresse"></textarea>
 					  </div>
 					 <div class="form-group">
-						<label for="formGroupExampleInput2">Nom</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
+						<label for="formGroupExampleInput2">Ville</label>
+						<input type="password" class="form-control" id="ville" name="ville" placeholder="Entrez votre ville">
 					  </div>
 					 <div class="form-group">
-						<label for="formGroupExampleInput2">Nom</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
-					  </div>
-					 <div class="form-group">
-						<label for="formGroupExampleInput2">Nom</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
-					  </div>
-					 <div class="form-group">
-						<label for="formGroupExampleInput2">Nom</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
+						<label for="formGroupExampleInput2">Pays</label>
+						<select  class="form-control" id="pays" name="pays"></select> 
 					  </div>
 					<a href="../../index.php" id="inscription">Retour</a><br><br>
 					<div class="col-lg-6">
