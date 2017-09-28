@@ -12,6 +12,13 @@ body{
 	
 }
 
+hr{
+
+	height: 			2px;
+	background: 		#EDBD9A;
+	border-radius: 		10px;
+}
+
 .intro-content{
 	
 	margin-top: 		25%;
@@ -41,7 +48,7 @@ body{
 	padding: 			0px;
 }
 
-button{
+.btn_form{
 	
 	background:  #EDBD9A;
 }

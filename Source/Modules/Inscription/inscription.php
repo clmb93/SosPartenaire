@@ -10,7 +10,7 @@
 		<div class="col-lg-6 intro-content cache" id="intro-content">
 			<div class=" col-lg-12">
 				<h1 align="center">Inscription</h1><br><br>
-				<form id="monForm">
+				<form id="monForm" method="post" action="php/class_inscrip.php">
 					 <div>
 						<label>Prénom</label>
 						<input type="text" class="form-control" id="prenom" placeholder="Entrez votre nom" name="prenom">
@@ -19,24 +19,46 @@
 						<label>Nom</label>
 						<input type="password" class="form-control" id="nom" name="nom" placeholder="Entrez votre prénom">
 					  </div>
+						<div class="form-group">
+						<label>Date de naissance</label>
+						<input type="date" class="form-control" id="datenaissance" name="datenaissance">
+					  </div>
+					 <div class="form-group">
+						<label for="">Téléphone</label>
+						<input class="form-control" type="number" name="tel" id="tel" min="0000000000" max="0999999999" placeholder="xxxxxxxxxx">
+					  </div>
+					<div class="form-group">
+						<label for="">Email</label>
+						<input class="form-control" type="Email" name="email" id="email" placeholder="Entrez votre adresse E mail">
+					  </div>
+						<hr/>
 					 <div class="form-group">
 						<label>Adresse</label>
 						 <textarea class="form-control" name="adresse" id="adresse" placeholder="Entrez votre adresse"></textarea>
 					  </div>
 					 <div class="form-group">
-						<label for="formGroupExampleInput2">Ville</label>
+						<label for="">Ville</label>
 						<input type="password" class="form-control" id="ville" name="ville" placeholder="Entrez votre ville">
 					  </div>
 					 <div class="form-group">
-						<label for="formGroupExampleInput2">Pays</label>
+						<label for="">Pays</label>
 						<select  class="form-control" id="pays" name="pays"></select> 
+					  </div>
+					<hr/>
+					 <div class="form-group">
+						<label>Login</label>
+						 <input type="text" class="form-control" name="log" id="log" placeholder="Entrez votre login">
+					  </div>
+					 <div class="form-group">
+						<label>Mot de passe</label>
+						 <input type="password" class="form-control" name="log" id="log" placeholder="Entrez votre mot de passe">
 					  </div>
 					<a href="../../index.php" id="inscription">Retour</a><br><br>
 					<div class="col-lg-6">
-						<button class="btn btn-block">Inscription</button>
+						<input type="submit" class="btn btn-block btn_form" value="Inscription">
 					</div>
 					<div class="col-lg-6">
-						<button class="btn btn-block">Annuler</button>
+						<input type="reset" class="btn btn-block btn_form" value="Annuler">
 					</div>
 				</form>
 			</div>
