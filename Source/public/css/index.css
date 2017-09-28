@@ -25,3 +25,15 @@ body{
 	
 	margin-bottom: 	200%;
 }
+
+.face1{
+	
+	position: 				relative;
+	backface-visibility: 	hidden;
+}
+
+.face2{
+	
+	transform: 				translate3d(0,1,0,180deg);
+	backface-visibility: 	hidden;
+}

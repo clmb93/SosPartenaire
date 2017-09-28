@@ -8,7 +8,7 @@
     </head> 
     <body class="container">
 		<div class="col-lg-6 intro-content cache" id="intro-content">
-			<div class=" col-lg-12">
+			<div class=" col-lg-12 face1">
 				<h1 align="center">Connexion</h1><br><br>
 				<form class="form">
 					 <div>
@@ -19,9 +19,13 @@
 						<label for="formGroupExampleInput2">Mot de passe</label>
 						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
 					  </div>
-					<a href="#">Pas de compte ? inscrivez-vous</a><br><br>
+					<a id="inscription">Pas de compte ? inscrivez-vous</a><br><br>
 					<button class="btn btn-block btn-success">Connexion</button>
 				</form>
+			</div>
+			<div class=" col-lg-12 face1">
+				<h1 align="center">Form</h1><br><br>
+				
 			</div>
 		
 		</div>
