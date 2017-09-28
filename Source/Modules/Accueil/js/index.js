@@ -18,7 +18,7 @@ $(document).ready(function(){
 				  	type: "POST",
 				  	url: "modules/accueil/php/test_co.php",
 					data : {
-						log 		: 	$log,
+						log 	: 	$log,
 						mdp 	: 	$mdp	
 				  	},
 				success : document.location.href="modules/accueil/php/test_co.php"
