@@ -19,7 +19,7 @@
 						<label for="formGroupExampleInput2">Mot de passe</label>
 						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
 					  </div>
-					<a id="inscription">Pas de compte ? inscrivez-vous</a><br><br>
+					<a href="#" id="inscription">Pas de compte ? inscrivez-vous</a><br><br>
 					<button class="btn btn-block btn-success">Connexion</button>
 				</form>
 			</div>
@@ -33,7 +33,6 @@
     </body> 
     <footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="public/js/Jquery-easing.js"></script>
         <script src="public/js/index.js"></script>
     </footer>
 </html>
