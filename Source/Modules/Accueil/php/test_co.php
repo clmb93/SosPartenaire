@@ -3,9 +3,9 @@
 
 if(!isset($_POST['log'])&&(!isset($_POST['mdp']))){
     echo "ok";
-    header('location:../../pages_erreurs/erreur_403.html');
+    header('location:../../pages_erreurs/html/erreur_403.html');
 }else if((!isset($_POST['log'])||(!isset($_POST['mdp'])))){
-     header('location:../page/err_log.html');
+     header('location:../pages_erreurs/html/err_log.html');
 }
 
 /* Fin script protection */
@@ -23,7 +23,6 @@ if(isset($_POST['log'])&&(isset($_POST['mdp']))){
     $mdp  = $_POST['mdp'];
     $query = "Select * from user where log_user = ?";
     $res = App::getDb()->query($query,array($log)); //requete de corresponance ou non
-    echo count($res);
     if($res){  
         $validPassword = password_verify($mdp, $res[0]['mdp_user']);
         if($validPassword){
