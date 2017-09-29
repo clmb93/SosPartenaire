@@ -13,7 +13,10 @@
  */
 class Cryptage {
     
-    public static function Crypter($Acrypter){
-        
+    
+    public static function Crypter($Acrypter){  //function de crypt des mots passé en arguments
+        $Acrypter = password_hash($Acrypter,PASSWORD_BCRYPT,array("cost" =>12));
+        return $Acrypter;
     }
+
 }

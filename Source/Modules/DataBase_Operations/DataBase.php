@@ -32,6 +32,7 @@ class DataBase {
         if($this->pdo === null){
             $pdo = new PDO('mysql:host='.$this->host.';dbname='.$this->database, $this->user, $this->user_mdp);
             $pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+            $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
             $this->pdo = $pdo;
         }
         return $this->pdo;
@@ -45,7 +46,7 @@ class DataBase {
             $data = $req->fetchAll();
             return $data;  
         } catch (Exception $ex) {
-            return "La requête n'a pu être effectué : ".$req->errorInfo();
+            return "La requête n'a pu être effectué .".$ex->getMessage();
         }
   
     }

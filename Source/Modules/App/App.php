@@ -14,11 +14,11 @@ require __DIR__.'/../DataBase_Operations/DataBase.php';
  */
 class App {
    
-     public static $db;
+     protected static $db;
      
      public static function getDb(){
          if(self::$db === null){
-             self::$db = new DataBase("localhaost", "sospartenaire", "root", "");
+             self::$db = new DataBase("localhost", "sospartenaire", "root", "");
          }
          
          return self::$db;
