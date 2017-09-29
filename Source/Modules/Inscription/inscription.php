@@ -53,7 +53,16 @@
 						<label>Mot de passe</label>
 						 <input type="password" class="form-control" name="log" id="log" placeholder="Entrez votre mot de passe">
 					  </div>
+                                        <hr>
+                                         <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value="1" name="conditions" id="conditions">
+                                                J'accepte les <a href="#">conditions utilisateurs</a>
+                                            </label>
+                                          </div> 
+                                        <hr>
 					<a href="../../index.php" id="inscription">Retour</a><br><br>
+                                       
 					<div class="col-lg-6 col-md-6 col-sm-6 ">
 						<input type="submit" class="btn btn-block btn_form" value="Inscription">
 					</div>

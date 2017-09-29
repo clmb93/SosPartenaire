@@ -1,29 +1,20 @@
 $(document).ready(function(){
 	$('#intro-content').animate({	marginBottom : "25%"	},1500);
 	$('#Form_connect').on('submit',function(e){
-		
-		e.preventDefault();
 		$log = $('#log').val();
 		$mdp = $('#mdp').val();
-		
-		if(!$log){
+                if((!$log)||(!$mdp)){
+                    e.preventDefault();
+                  if(!$log){
 			$('#log').addClass('manquant');
-		}
-		if(!$mdp){
-			$('#mdp').addClass('manquant');			
-		}
+                  }
+                  if(!$mdp){
+                            $('#mdp').addClass('manquant');			
+                    }     
+                }
 		
-		if(($log)&&($mdp)){
-			$.post({
-				  	type: "POST",
-				  	url: "modules/accueil/php/test_co.php",
-					data : {
-						log 	: 	$log,
-						mdp 	: 	$mdp	
-				  	},
-				success : document.location.href="modules/accueil/php/test_co.php"
-			});
-		}
+		
+
 		
 	});
 	

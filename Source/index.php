@@ -12,12 +12,12 @@
 				<h1 align="center">Connexion</h1><br><br>
 				<form id="Form_connect" method="post" action="modules/accueil/php/test_co.php">
 					 <div>
-						<label for="formGroupExampleInput">Login</label>
-						<input type="text" class="form-control" id="log" placeholder="Login">
+						<label >Login</label>
+						<input type="text" class="form-control" id="log" name="log" placeholder="Login">
 					  </div><br>
 					  <div class="form-group">
-						<label for="formGroupExampleInput2">Mot de passe</label>
-						<input type="password" class="form-control" id="mdp" placeholder="Mot de passe">
+						<label >Mot de passe</label>
+						<input type="password" class="form-control" name="mdp" id="mdp" placeholder="Mot de passe">
 					  </div>
 					<a href="modules/inscription/inscription.php" id="inscription">Pas de compte ? inscrivez-vous</a><br><br>
 					<input type="submit" class="btn btn-block btn-success" value="Connexion">
