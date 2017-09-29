@@ -6,8 +6,6 @@
  * and open the template in the editor.
  */
 
-namespace Connexion;
-use \PDO;
 
 /**
  * Description of DataBase

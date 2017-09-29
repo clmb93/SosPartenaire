@@ -1,5 +1,7 @@
 <?php
-    require ('../../Connexion/DataBase.php');
+
+require __DIR__.'/../../App/App.php';
+
+var_dump(App::getDb());
 
     
-    $db = new Connexion\DataBase("localhost","sospartenaire","root","septam");
