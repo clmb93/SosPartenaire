@@ -8,14 +8,14 @@
 
 /**
  * Description of Cryptage
- *
+ *  Classe qui sert  crypter les informations dsensibles dans la base de données
  * @author j.ladisa
  */
 class Cryptage {
     
     
     public static function Crypter($Acrypter){  //function de crypt des mots passé en arguments
-        $Acrypter = password_hash($Acrypter,PASSWORD_BCRYPT,array("cost" =>12));
+        $Acrypter = password_hash($Acrypter,PASSWORD_DEFAULT);
         return $Acrypter;
     }
 
