@@ -1,7 +1,7 @@
 index.php,
 
 
-/* **	INTRODUCTION	**	*/
+/* **	INSCRIPTION	**	*/
 
 
 body{
@@ -42,5 +42,16 @@ hr{
 	
 	background:  #EDBD9A;
 }
+
+
+.manquant{
+	
+	border: 1px solid red;
+}
+
+#form_check{
+    padding:    10px;
+}
+
 
 
