@@ -28,10 +28,10 @@ $(document).ready(function(){
         $('#form_inscription').on('submit',function(e){
             
            $isCocher = $conditions.is(':checked');
-            if((!$prenom.val())||(!$nom.val())||
-                    (!$dateNaissance.val())||(!$tel.val())||
-                        (!$email.val())||(!adresse.val())||(!$ville.val())||
-                            (!$pays.val())||(!$log.val())||(!$mdp.val())||(!$isCocher)){    //longue conditions qui vérifie que tous les champs sont bien remplis et que le bouton checkbox est coché
+            if(!$prenom.val()||!$nom.val()||
+                    !$dateNaissance.val()||!$tel.val()||
+                        !$email.val()||!$adresse.val()||!$ville.val()||
+                            !$pays.val()||!$log.val()||!$mdp.val()||!$isCocher){    //longue conditions qui vérifie que tous les champs sont bien remplis et que le bouton checkbox est coché
                         
                 e.preventDefault();
                 if(!$prenom.val()){
@@ -81,4 +81,73 @@ $(document).ready(function(){
             
             
         });
+        
+        $prenom.on('blur',function(){
+            if(!$prenom.val()){
+                 $prenom.addClass('manquant');     
+            }else $prenom.removeClass('manquant');       
+        });
+        
+        $nom.on('blur',function(){
+            if(!$nom.val()){
+                 $nom.addClass('manquant');     
+            }else $nom.removeClass('manquant');       
+        });
+        
+          $dateNaissance.on('blur',function(){
+            if(!$dateNaissance.val()){
+                 $dateNaissance.addClass('manquant');     
+            }else $dateNaissance.removeClass('manquant');        
+        });
+        
+          $tel.on('blur',function(){
+            if(!$tel.val()){
+                 $tel.addClass('manquant');     
+            }else $tel.removeClass('manquant');     
+        });
+        
+          $email.on('blur',function(){
+            if(!$email.val()){
+                 $email.addClass('manquant');     
+            }else $email.removeClass('manquant');     
+        });
+        
+          $adresse.on('blur',function(){
+            if(!$adresse.val()){
+                 $adresse.addClass('manquant');     
+            }else $adresse.removeClass('manquant');     
+        });
+        
+           $ville.on('blur',function(){
+            if(!$ville.val()){
+                 $ville.addClass('manquant');     
+            }else $ville.removeClass('manquant');     
+        });
+        
+           $pays.on('blur',function(){
+            if(!$pays.val()){
+                 $pays.addClass('manquant');     
+            }else $pays.removeClass('manquant');     
+        });
+        
+          $log.on('blur',function(){
+            if(!$log.val()){
+                 $log.addClass('manquant');     
+            }else $log.removeClass('manquant');     
+        });
+        
+           $mdp.on('blur',function(){
+            if(!$mdp.val()){
+                 $mdp.addClass('manquant');     
+            }else $mdp.removeClass('manquant');     
+        });
+        
+           $conditions.on('blur',function(){
+            if(!$conditions.is(':checked')){
+                 $('#form_check').addClass('manquant');     
+            }else $('#form_check').removeClass('manquant');     
+        });
+
+                
+               
 });
