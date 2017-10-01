@@ -8,13 +8,13 @@ body{
 	
 	background: 		url('../../../img/terrain_basket.jpg') no-repeat center;
 	background-size: 	cover;
-	overflow: 			hidden;
+	overflow: 		hidden;
 	
 }
 
 hr{
 
-	height: 			2px;
+	height: 		2px;
 	background: 		#EDBD9A;
 	border-radius: 		10px;
 }
@@ -23,11 +23,11 @@ hr{
 	
 	margin-top: 		25%;
 	margin-left: 		25%;
-	height: 			500px;
+	height: 		500px;
 	max-height: 		700px;
-	border: 			10px dashed #EDBD9A;
+	border: 		10px dashed #EDBD9A;
 	background: 		white;
-	padding: 			0px;
+	padding: 		0px;
 	overflow-y: 		auto;
 	padding-bottom: 	10px;
 }
@@ -54,4 +54,75 @@ hr{
 }
 
 
+@media (max-height : 800px){
+    
+    
+    .intro-content{
+	
+	margin-top: 		15%;
+	margin-left: 		25%;
+	height: 		500px;
+	max-height: 		600px;
+	border: 		10px dashed #EDBD9A;
+	background: 		white;
+	padding: 		0px;
+	overflow-y: 		auto;
+	padding-bottom: 	10px;
+    }
+}
 
+@media (max-height : 660px){
+    
+    
+    body{
+        
+        overflow: auto;
+    }
+    
+       .intro-content{
+	
+        min-width:              400px;
+	margin-top: 		5%;
+	margin-left: 		5%;
+	height: 		auto;
+        border: 		10px dashed #EDBD9A;
+	background: 		white;
+	padding: 		0px;
+	overflow-y: 		auto;
+	padding-bottom: 	10px;
+    }
+    
+     .btn_form{
+	
+	background:  #EDBD9A;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width : 500px){
+    
+    body{
+        
+        overflow: auto;
+    }
+    
+    .intro-content{
+	
+        min-width:              400px;
+	margin-top: 		0%;
+	margin-left: 		0%;
+	height: 		auto;
+        border: 		10px dashed #EDBD9A;
+	background: 		white;
+	padding: 		0px;
+	overflow-y: 		auto;
+	padding-bottom: 	10px;
+    }
+    
+    .btn_form{
+	
+	background:  #EDBD9A;
+        margin-bottom: 15px;
+    }
+}

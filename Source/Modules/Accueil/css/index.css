@@ -8,17 +8,17 @@ body{
 	
 	background: 		url('../../../img/terrain_foot.jpg') no-repeat center;
 	background-size: 	cover;
-	overflow: 			hidden;
+	overflow:               hidden;
 }
 
 .intro-content{
 	
 	margin-top: 		25%;
 	margin-left: 		25%;
-	height: 			370px;
-	border: 			10px dashed darkgreen;
+	height: 		370px;
+	border: 		10px dashed darkgreen;
 	background: 		white;
-	padding: 			0px;
+	padding: 		0px;
 }
 
 
@@ -28,19 +28,45 @@ body{
 }
 
 
-.inscription{
-	
-	position: 			fixed;
-	margin-top: 		25%;
-	margin-left: 		25%;
-	border: 			10px dashed darkgreen;
-	background: 		white;
-	padding: 			0px;
-}
-
-
-
 .manquant{
 	
 	border: 1px solid red;
+}
+
+
+@media (max-height : 600px){
+    
+    body{
+        
+        overflow: auto;
+    }
+    
+    .intro-content{
+	
+	margin-top: 		0%;
+	margin-left: 		0%;
+	height: 		auto;
+	border: 		10px dashed darkgreen;
+	background: 		white;
+	padding: 		0px;
+    }
+}
+
+@media (max-width : 500px){
+    
+    body{
+        
+        overflow: auto;
+    }
+    
+    .intro-content{
+	
+        min-width:              300px;
+	margin-top: 		0%;
+	margin-left: 		0%;
+	height: 		auto;
+	border: 		10px dashed darkgreen;
+	background: 		white;
+	padding: 		0px;
+    }
 }
