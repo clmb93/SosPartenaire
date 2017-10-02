@@ -3,9 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/wamp64/www/SOSpartenaire/SosPartenaire/Source/Modules/Inscription/php/inscrip.php</file>
-            <file>file:/C:/wamp64/www/SOSpartenaire/SosPartenaire/Source/Modules/Accueil/php/test_co.php</file>
-            <file>file:/C:/wamp64/www/SOSpartenaire/SosPartenaire/Source/Modules/App/App.php</file>
+            <file>file:/C:/wamp_julien/www/sospartenaire/SosPartenaire/Source/Modules/Accueil/php/test_co.php</file>
+            <file>file:/C:/wamp_julien/www/sospartenaire/SosPartenaire/Source/Modules/Inscription/inscription.php</file>
+            <file>file:/C:/wamp_julien/www/sospartenaire/SosPartenaire/Source/Modules/Inscription/js/inscription.js</file>
+            <file>file:/C:/wamp_julien/www/sospartenaire/SosPartenaire/Source/Modules/Inscription/php/inscrip.php</file>
+            <file>file:/C:/wamp_julien/www/sospartenaire/SosPartenaire/Source/Modules/conditions_utilisateurs/page/conditions.html</file>
+            <file>file:/C:/wamp_julien/www/sospartenaire/SosPartenaire/Source/Modules/Inscription/php/test_log.php</file>
         </group>
     </open-files>
 </project-private>
