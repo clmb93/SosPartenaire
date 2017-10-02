@@ -39,6 +39,7 @@ $(document).ready(function(){
                       if(msg ==1){
                           $('#log').append('<p style="color:red;font-style:italic;>Login est déjà utilisé, veuillez en choisir un autre</p>')
                           $login_different = false;
+                          $log.focus();
                       }else if(msg==0){
                           $('#log').append('<p style="color:green;font-style:italic;>Login libre</p>')
                            $login_different = true;
@@ -152,17 +153,6 @@ $(document).ready(function(){
                  $pays.addClass('manquant');     
             }else $pays.removeClass('manquant');     
         });
-        
-          $log.on('blur',function(){
-            if(!$log.val()){
-                 $log.addClass('manquant');     
-            }else {
-                if($login_different == true){
-                    $log.removeClass('manquant');  
-                }
-            }     
-        });
-        
         $log.on('keyup',function(){
             if($log.val()){
                $.ajax({
@@ -184,6 +174,29 @@ $(document).ready(function(){
                       });   
             }
                
+        });
+        $log.on('blur',function(){
+            if(!$log.val()){
+                 $log.addClass('manquant');     
+            }else {
+                 $.ajax({
+                      method: "GET",
+                      url: "php/test_log.php",
+                      data: { login: $log.val()}
+                    })
+                      .done(function( msg ) {
+                          if(msg ==1){
+                              $('#log_dif').html('<p style="color:red;font-style:italic;">Login déjà utilisé, veuillez en choisir un autre</p>');
+                              $log.addClass('manquant');
+                              $login_different = false;
+                          }else if(msg==0){
+                              $('#log_dif').html('<p style="color:green;font-style:italic;">Login libre</p>');
+                               $log.removeClass('manquant');
+                               $login_different = true;
+                               
+                          }
+                      });   
+            }     
         });
         
            $mdp.on('blur',function(){
