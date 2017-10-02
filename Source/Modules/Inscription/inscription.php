@@ -58,7 +58,7 @@
                                          <div class="form-check" id="form_check">
                                             <label class="form-check-label">
                                                 <input class="form-check-input" type="checkbox" value="1" name="conditions" id="conditions">
-                                                J'accepte les <a href="#">conditions utilisateurs</a>
+                                                J'accepte les <a href="../conditions_utilisateurs/page/conditions.html">conditions utilisateurs</a>
                                             </label>
                                              <p style="font-style: italic;font-weight: bolder;color:red;">Sos partenaire ne divulguera jamais vos informations personnelles</p>
                                           </div> 
