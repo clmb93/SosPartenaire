@@ -59,6 +59,7 @@
                                                 <input class="form-check-input" type="checkbox" value="1" name="conditions" id="conditions">
                                                 J'accepte les <a href="#">conditions utilisateurs</a>
                                             </label>
+                                             <p style="font-style: italic;font-weight: bolder;color:red;">Sos partenaire ne divulguera jamais vos informations personnelles</p>
                                           </div> 
                                         <hr>
 					<a href="../../index.php" id="inscription">Retour</a><br><br>

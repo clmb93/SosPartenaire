@@ -50,4 +50,14 @@ class DataBase {
         }
   
     }
+    
+    public function ExecuteQuery($query){   //executer des requêtes de types insert/delete ou update
+        
+        try{
+            $this->getPdo()->exec($query);
+        } catch (Exception $ex) {
+             return "La requête n'a pu être effectué .".$ex->getMessage();
+        }
+
+    }
 }
