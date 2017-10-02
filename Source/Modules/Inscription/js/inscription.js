@@ -13,6 +13,7 @@ $(document).ready(function(){
             $log                = $('#log');
             $mdp                = $('#mdp');
             $conditions         = $('#conditions');
+            $login_different    = false;
             
             
 	$('#intro-content').animate({	marginBottom : "25%" },1500);
@@ -26,12 +27,34 @@ $(document).ready(function(){
        
         
         $('#form_inscription').on('submit',function(e){
+               
+            /* Test login non existant */
+            if($log.val()){  
+                $.ajax({
+                  method: "GET",
+                  url: "php/test_log.php",
+                  data: { login: $log.val()}
+                })
+                  .done(function( msg ) {
+                      if(msg ==1){
+                          $('#log').append('<p style="color:red;font-style:italic;>Login est déjà utilisé, veuillez en choisir un autre</p>')
+                          $login_different = false;
+                      }else if(msg==0){
+                          $('#log').append('<p style="color:green;font-style:italic;>Login libre</p>')
+                           $login_different = true;
+                      }
+                  });
+
+            
+            }
+            
+            /* Test champs non vide */
             
            $isCocher = $conditions.is(':checked');
             if(!$prenom.val()||!$nom.val()||
                     !$dateNaissance.val()||!$tel.val()||
                         !$email.val()||!$adresse.val()||!$ville.val()||
-                            !$pays.val()||!$log.val()||!$mdp.val()||!$isCocher){    //longue conditions qui vérifie que tous les champs sont bien remplis et que le bouton checkbox est coché
+                            !$pays.val()||!$log.val()||!$mdp.val()||!$conditions.is(':checked')||!$login_different){    //longue conditions qui vérifie que tous les champs sont bien remplis et que le bouton checkbox est coché
                         
                 e.preventDefault();
                 if(!$prenom.val()){
@@ -133,7 +156,34 @@ $(document).ready(function(){
           $log.on('blur',function(){
             if(!$log.val()){
                  $log.addClass('manquant');     
-            }else $log.removeClass('manquant');     
+            }else {
+                if($login_different == true){
+                    $log.removeClass('manquant');  
+                }
+            }     
+        });
+        
+        $log.on('keyup',function(){
+            if($log.val()){
+               $.ajax({
+                      method: "GET",
+                      url: "php/test_log.php",
+                      data: { login: $log.val()}
+                    })
+                      .done(function( msg ) {
+                          if(msg ==1){
+                              $('#log_dif').html('<p style="color:red;font-style:italic;">Login déjà utilisé, veuillez en choisir un autre</p>');
+                              $log.addClass('manquant');
+                              $login_different = false;
+                          }else if(msg==0){
+                              $('#log_dif').html('<p style="color:green;font-style:italic;">Login libre</p>');
+                               $log.removeClass('manquant');
+                               $login_different = true;
+                               
+                          }
+                      });   
+            }
+               
         });
         
            $mdp.on('blur',function(){

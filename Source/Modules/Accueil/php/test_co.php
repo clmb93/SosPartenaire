@@ -31,7 +31,7 @@ if(isset($_POST['log'])&&(isset($_POST['mdp']))){
             $_SESSION['id_user'] = $id;
             header('location:../../espace_membre/page/membre.php');
         }else header('location:../page/err_log.html');
-    }else header('location:../page/err_log.html');
+    }else header('location:../../pages_erreurs/page/err_log.html');
 }
 
 

@@ -48,6 +48,7 @@
 					 <div class="form-group">
 						<label>Login</label>
 						 <input type="text" class="form-control" name="log" id="log" placeholder="Entrez votre login">
+                                                 <div id="log_dif"></div>
 					  </div>
 					 <div class="form-group">
 						<label>Mot de passe</label>
