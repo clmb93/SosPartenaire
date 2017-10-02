@@ -46,7 +46,7 @@ class DataBase {
             $data = $req->fetchAll();
             return $data;  
         } catch (Exception $ex) {
-            return "La requête n'a pu être effectué .".$ex->getMessage();
+            echo "La requête n'a pu être effectué .".$ex->getMessage();
         }
   
     }
@@ -56,7 +56,7 @@ class DataBase {
         try{
             $this->getPdo()->exec($query);
         } catch (Exception $ex) {
-             return "La requête n'a pu être effectué .".$ex->getMessage();
+             echo "La requête n'a pu être effectué .".$ex->getMessage();
         }
 
     }
