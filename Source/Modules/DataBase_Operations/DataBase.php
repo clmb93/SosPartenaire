@@ -27,7 +27,7 @@ class DataBase {
         $this->user_mdp    = $user_mdp;
     }
     
-    protected function getPdo(){
+    protected function getPdo(){ 
         
         if($this->pdo === null){
             $pdo = new PDO('mysql:host='.$this->host.';dbname='.$this->database, $this->user, $this->user_mdp);

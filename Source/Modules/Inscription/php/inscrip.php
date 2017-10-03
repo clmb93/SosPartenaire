@@ -36,5 +36,5 @@ $query = "Insert into USER"
         . "VALUES ('".$nom."','".$prenom."','".$datenaissance."','".$tel."','".$email."','".$adresse."','".$ville."','".$pays."','".$log."','".$mdp."')";
 
 App::getDb()->executeQuery($query);
-header("location:../page/inscrip_succes.html");
+//header("location:../page/inscrip_succes.html");
 
