@@ -5,7 +5,7 @@ if(!isset($_POST['log'])&&(!isset($_POST['mdp']))){
     echo "ok";
     header('location:../../pages_erreurs/page/erreur_403.html');
 }else if((!isset($_POST['log'])||(!isset($_POST['mdp'])))){
-     header('location:../pages_erreurs/page/err_log.html');
+     header('location:../../pages_erreurs/page/err_log.html');
 }
 
 /* Fin script protection */
