@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$('#intro-content').animate({	marginBottom : "25%"	},1500);
 	$('#Form_connect').on('submit',function(e){
 		$log = $('#log').val();
 		$mdp = $('#mdp').val();

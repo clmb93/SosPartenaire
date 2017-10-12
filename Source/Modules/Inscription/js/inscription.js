@@ -15,8 +15,6 @@ $(document).ready(function(){
             $conditions         = $('#conditions');
             $login_different    = false;
             
-            
-	$('#intro-content').animate({	marginBottom : "25%" },1500);
         
 	$.getJSON( "liste_pays/pays.json", function( data ) {   //On récupère la liste des pays et on l'affiche dans le select
 	  $.each( data, function(key,value) {
