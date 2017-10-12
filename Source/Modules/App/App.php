@@ -24,4 +24,10 @@ class App {
          return self::$db;
      }
      
+     public static function getCurrentUserById($id){
+         $data = self::getDb()->query(
+                 "SELECT * FROM user WHERE id_user = ?",[$id]);
+         return $data;
+     }
+     
 }
