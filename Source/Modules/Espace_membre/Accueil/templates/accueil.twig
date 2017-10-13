@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SOS Partenaire</title>
+        <link rel="icon" href="../../../img/logo/logo-icon.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <nav>
+            <div class="leftbar">
+                 <div class="brand">
+                     <i class="fa fa-user-circle"></i>
+                     {{user_info[0]["prenom_user"]|capitalize ~" "~ user_info[0]["nom_user"]|upper}}                 </div>
+                     <ul class="menu_user">
+                        
+                          <li>
+                             <i class="fa fa-comment "></i> Mes messages
+                         </li>  
+                         <li>
+                             <i class="fa fa-users "></i> Mes Amis
+                         </li>
+                         <hr>
+                         <li>
+                             <i class="fa fa-cog "></i> Mon compte
+                         </li>
+                         <hr>
+                         <li>
+                             <a href="../../Deconnexion/Deconnect.php" style="color:black;text-decoration:none;"><i class="fa fa-sign-out "></i> Déconnexion</a>
+                         </li>
+                         
+                     </ul>  
+                 </div>
+                 <span class="show"><i class=" fa fa-plus-circle" title="Menu"></i></span>
+
+                 
+            </div>
+        </nav>
+                    
+
+    </body>
+    <footer>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+    </footer>
+</html>

@@ -16,7 +16,7 @@ class App {
    
      protected static $db;
      
-     public static function getDb(){
+     public static function getDb(){ 
          if(self::$db === null){
              self::$db = new DataBase("localhost", "sospartenaire", "root", "");
          }

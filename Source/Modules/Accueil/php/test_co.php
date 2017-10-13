@@ -29,8 +29,8 @@ if(isset($_POST['log'])&&(isset($_POST['mdp']))){
             $id = $res[0][id_user];
             session_start();
             $_SESSION['id_user'] = $id;
-            header('location:../../espace_membre/page/membre.php');
-        }else header('location:../page/err_log.html');
+            header('location:../../espace_membre/accueil/membre.php');
+        }else header('location:../../pages_erreurs/page/err_log.html');
     }else header('location:../../pages_erreurs/page/err_log.html');
 }
 

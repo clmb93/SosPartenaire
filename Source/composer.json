@@ -1,0 +1,13 @@
+{
+    "name": "SOS PARTENAIRE",
+    "require": {
+        "php": ">=5.3",
+    	"twig/twig": "v1.35.0"
+    },
+    "authors": [
+        {
+            "name": "julien ladisa",
+            "email": "julien.ladisa@gmail.com"
+        }
+    ]
+}
